@@ -1,7 +1,8 @@
-const myTimeout = setTimeout(loading, 4000);
-    function loading(){
+document.onreadystatechange = function(){
+    if(document.readyState == "complete"){
         document.getElementById("demo").style.display = "none";
     }
+}
 
 let active = false;
 
