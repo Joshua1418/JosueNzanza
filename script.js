@@ -1,3 +1,8 @@
+const myTimeout = setTimeout(loading, 4000);
+    function loading(){
+        document.getElementById("demo").style.display = "none";
+    }
+
 let active = false;
 
 function openNav(){
