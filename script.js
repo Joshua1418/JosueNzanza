@@ -10,7 +10,7 @@ function openNav(){
     document.getElementById("sideNav").src = active?
     'menu.png' : 'close.png';
     document.getElementById("mySidenav").style.width = active?
-    "0%": "60%";
+    "0%": "75%";
     document.getElementById("main").style.marginLeft = active?
     " 0em"  :  " 1.5em" ;
     document.body.style.backgroundColor = active?
