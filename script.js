@@ -11,10 +11,11 @@ function openNav(){
     'menu.png' : 'close.png';
     document.getElementById("mySidenav").style.width = active?
     "0%": "75%";
-    document.getElementById("main").style.marginLeft = active?
-    " 0em"  :  " 1.5em" ;
+   
     document.body.style.backgroundColor = active?
    "white" :"rgba(1,1,1,0.1)";
+   document.getElementById("myHeader").style.backgroundColor = active?
+   "white" : "rgba(1,1,1,)";
     active = !active;
 }
 onscroll = () => {
@@ -22,6 +23,8 @@ onscroll = () => {
     document.getElementById("main").style.marginLeft ="0em";
     document.body.style.backgroundColor = "white";
     document.getElementById("sideNav").src='menu.png';
+   
+    
 
 }
 let openRead = false;
