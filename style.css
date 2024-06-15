@@ -24,6 +24,10 @@ body{
     font-family: sans-serif;
    color: darkcyan; 
 }
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
 .myHeader{
     height:3em ;
     top: 0;
