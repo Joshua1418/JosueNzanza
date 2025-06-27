@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: josue-nzanza-site
+    branch: main
+    buildCommand: ""
+    staticPublishPath: josue-nzanza
+    pullRequestPreviewsEnabled: true
