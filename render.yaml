@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: josue-nzanza-site
+    name: josue-nzanza
     branch: main
     buildCommand: ""
     staticPublishPath: josue-nzanza
